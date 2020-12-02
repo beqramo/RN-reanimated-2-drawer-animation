@@ -1,0 +1,48 @@
+{
+  "name": "Reanimated2Playground",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "web": "expo start --web || expo start --web --web-only"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/drawer": "^5.11.4",
+    "@react-navigation/native": "^5.8.10",
+    "expo-asset": "^8.2.0",
+    "react": "16.13.1",
+    "react-dom": "^16.13.1",
+    "react-native": "0.63.1",
+    "react-native-gesture-handler": "^1.9.0",
+    "react-native-reanimated": "2.0.0-alpha.9",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^2.15.0",
+    "react-native-svg": "^12.1.0",
+    "react-native-web": "^0.12.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/runtime": "^7.10.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^26.0.16",
+    "@types/react": "^17.0.0",
+    "@types/react-native": "^0.63.37",
+    "@types/react-test-renderer": "^17.0.0",
+    "babel-jest": "^26.1.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "eslint": "^7.5.0",
+    "jest": "^26.1.0",
+    "metro-react-native-babel-preset": "^0.60.0",
+    "react-native-svg-transformer": "^0.14.3",
+    "react-test-renderer": "16.13.1",
+    "typescript": "^4.1.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
